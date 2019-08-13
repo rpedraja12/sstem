@@ -1,0 +1,19 @@
+{
+    "name": "rpedraja/seameo-e-recruitment",
+    "description": "This is a wordpress plugin for recruitment",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Ronald Pedraja",
+            "email": "ronald.pedraja@gamil.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spipu/html2pdf": "dev-master"
+    },
+    "autoload": {
+    	"psr-4": {"Inc\\": "./inc"}
+    }
+}

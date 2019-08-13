@@ -1,0 +1,1 @@
+[29-Mar-2019 17:42:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/seadstemadmin/public_html/beta/wp-content/themes/seadstem/index.php on line 2

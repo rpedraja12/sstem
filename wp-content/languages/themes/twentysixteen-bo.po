@@ -1,0 +1,329 @@
+# Translation of Themes - Twenty Sixteen in Tibetan
+# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-19 01:19:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: bo\n"
+"Project-Id-Version: Themes - Twenty Sixteen\n"
+
+#. Description of the plugin/theme
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Sixteen"
+msgstr "Twenty Sixteen"
+
+#. translators: %s: Name of current post
+#: image.php:84 template-parts/content-page.php:37
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:45 template-parts/content.php:49
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> \"%s\"</span> བཟོ་བཅོས་བྱེད།"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:184 template-parts/content.php:28
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> \"%s\"</span> མུ་མཐུད་ཀློག"
+
+#: inc/customizer.php:283
+msgid "Red"
+msgstr "དམར་པོ།"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; ལ་བསམ་ཚུལ་གཅིག་འདུག"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "འཚོལ་ཞིབ་བྱེད།"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "འཚོལ་ཞིབ། &hellip;"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "འཚོལ་བཞིན་པ་ནི།"
+
+#: footer.php:28
+msgid "Footer Social Links Menu"
+msgstr "ཤོག་ཞབས་སྤྱི་ཚོགས་མཐུད་སྤྲེལ་དཀར་ཆག"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "ཤོག་ཞབས་དཀར་ཆག་གཙོ་བོ།"
+
+#: functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr "མཐུད་སྣེ་ཕྱོགས་མཐའི་ཡོ་ཆས་སུ་འཆར་བར་འདིར་སྣོན།"
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "དམིགས་བསལ་ཁྱད་ལྡན།"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "བལྟས་ཚོད་ཀྱིས་ཁྱེད་ལ་མཁོ་བའི་དངོས་པོ་དེ་ང་ཚོས་རྙེད་གྱིན་མི་འདུག བཤེར་འཚོལ་གྱིས་ཁྱེད་ལ་རོགས་རམ་བྱེད་ཐུབ་ཀྱང་སྲིད།"
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "དགོངས་དག་ཞུ། འོན་ཀྱང་ཁྱེད་ཀྱི་བཤེར་འཚོལ་སྡེ་ཚན་ལ་མཚུངས་ཟླར་གྱུར་པ་གང་ཡང་མེད། གནད་ཚིག་མི་འདྲ་བ་རེ་སྤྱད་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་ཐེངས་གཅིག་བྱེད་རོགས།"
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "ཁྱེད་ཀྱི་རྩོམ་ཡིག་དང་པོ་དེ་སྤེལ་རྩིས་ཡིན་ནམ། <a href=\"%1$s\">འདིར་བསྣུན་ནས་མགོ་རྩོམ།</a>"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "རྙེད་མ་སོང་།"
+
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr "%s རྩོམ་པ་པོ་འདིའི་རྩོམ་ཡིག་ཡོངས་ལ་བལྟ།"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "རྩོམ་པ་པོ།"
+
+#: single.php:38
+msgid "Previous post:"
+msgstr "རྩོམ་ཡིག་སྔོན་མ།"
+
+#: single.php:37
+msgid "Previous"
+msgstr "སྔོན་མ།"
+
+#: single.php:35
+msgid "Next post:"
+msgstr "རྩོམ་ཡིག་རྗེས་མ།"
+
+#: single.php:34
+msgid "Next"
+msgstr "རྗེས་མ།"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས། %s"
+
+#: inc/template-tags.php:106
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "འགྲེལ་བྱང་།"
+
+#: inc/template-tags.php:98
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "དཀར་ཆག"
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "སྤེལ་དུས"
+
+#: inc/template-tags.php:38
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "རྣམ་བཞག"
+
+#: inc/template-tags.php:50
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s སྟེང་དུ་</span>དཔྱད་མཆན་སྤེལ།"
+
+#: inc/template-tags.php:25
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "རྩོམ་པ་པོ།"
+
+#: inc/customizer.php:293
+msgid "Yellow"
+msgstr "སེར་པོ།"
+
+#: inc/customizer.php:273
+msgid "Gray"
+msgstr "སྐྱ་བོ།"
+
+#: inc/customizer.php:263
+msgid "Dark"
+msgstr "སྨུག་པོ།"
+
+#: inc/customizer.php:184
+msgid "Secondary Text Color"
+msgstr "Secondary ཡི་གེའི་ཚོན་མདོག"
+
+#: inc/customizer.php:172
+msgid "Main Text Color"
+msgstr "ཡི་གེ་གཙོ་བོའི་ཚོན་མདོག"
+
+#: inc/customizer.php:253
+msgid "Default"
+msgstr "སོར་བཞག"
+
+#: inc/customizer.php:145
+msgid "Page Background Color"
+msgstr "ཤོག་ངོས་རྒྱབ་ལྗོངས་ཚོན་མདོག"
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr "མཐུད་སྤྲེལ་ཚོན་མདོག"
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Sixteen དཔེ་སྒྲོམ་གྱིས་བྱ་བ་བྱེད་པ་ལ་ WordPress ཐོམ་རིམ་ཉུང་མཐར། 4.4. ཡིན་དགོས། ཁྱེད་ཀྱིས་བེད་སྤྱོད་བྱེད་བཞིན་པ་དེ་ཐོན་རིམ་ %s རེད་འདུག རིམ་སྤར་བྱས་ནས་ཚོད་ལྟ་བྱེད་རོགས།"
+
+#: inc/customizer.php:130
+msgid "Base Color Scheme"
+msgstr "གཞི་རྩའི་ཚོན་མདོག་ཇུས་གཞི།"
+
+#: image.php:102 single.php:29
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">སྤེལ་ཡུལ།</span><span class=\"post-title\">%title</span>"
+
+#: image.php:73
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "ཆེ་ཤོས།"
+
+#: image.php:56 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr "ཤོག་ངོས:"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "པར་རིས་རྗེས་མ།"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "པར་རིས་སྔོན་མ།"
+
+#: header.php:47
+msgid "Menu"
+msgstr "གདམ་ཐོ།"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "ནང་དོན་དངོས་ལ་མཆོངས།"
+
+#: functions.php:284
+msgid "expand child menu"
+msgstr "བུ་རྒྱུད་དཀར་ཆག་འགྲེམས་པ།"
+
+#: functions.php:285
+msgid "collapse child menu"
+msgstr "བུ་རྒྱུད་དཀར་ཆག་ལྟེབ་བརྩེགས་བྱེད།"
+
+#: functions.php:176
+msgid "Content Bottom 2"
+msgstr "ནང་དོན་མཐེབ་གནོན་གཉིས་པ།"
+
+#: functions.php:166
+msgid "Content Bottom 1"
+msgstr "ནང་དོན་མཐེབ་གནོན་དང་པོ།"
+
+#: functions.php:168 functions.php:178
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "ནང་དོན་འདི་རྩོམ་ཡིག་དང་ཤོག་ངོས་ཀྱི་མཇུག་ཏུ་འཆར།"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:213
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:203
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:208
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:156
+msgid "Sidebar"
+msgstr "ཕྱོགས་མཐའི་ཡོ་ཆས།"
+
+#: functions.php:89 header.php:62
+msgid "Social Links Menu"
+msgstr "སྤྱི་ཚོགས་མཐུད་སྤྲེལ་དཀར་ཆག"
+
+#: functions.php:88 header.php:51
+msgid "Primary Menu"
+msgstr "དཀར་ཆག་གཙོ་བོ།"
+
+#: footer.php:51
+msgid "Proudly powered by %s"
+msgstr "དགའ་སྤོབས་དང་བཅས %s སྤྱད་ནས་བཟོས་པ་ཡིན།"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "དཔྱད་མཆན་སྒོ་བརྒྱབ་འདུག"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s འདི་ལ་བསམ་ཚུལ &ldquo;%2$s&rdquo;"
+
+#: archive.php:51 image.php:60 index.php:48 search.php:39
+#: template-parts/content-page.php:27 template-parts/content-single.php:29
+#: template-parts/content.php:37
+msgid "Page"
+msgstr "ཤོག་ངོས།"
+
+#: archive.php:50 index.php:47 search.php:38
+msgid "Next page"
+msgstr "ཤོག་ངོས་རྗེས་མ།"
+
+#: archive.php:49 index.php:46 search.php:37
+msgid "Previous page"
+msgstr "ཤོག་ངོས་སྔོན་མ།"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "བལྟས་ཚོད་ལ། ཁྱེད་ཀྱིས་འཚོལ་བཞིན་པ་དེ་གནས་འདི་ནས་རྙེད་མ་སོང་། འཚོལ་ཆས་ཀྱིས་རོགས་རམ་བྱེད་སྲིད།"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ཤོག་ངོས་གང་ཡང་མ་རྙེད།"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "WordPress ཚོགས་པ།"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentysixteen/"
+msgstr "https://wordpress.org/themes/twentysixteen/"
+
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:51
+msgid "https://wordpress.org/"
+msgstr "https://bo.wordpress.org/"
