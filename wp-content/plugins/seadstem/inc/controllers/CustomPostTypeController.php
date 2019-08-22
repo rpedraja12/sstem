@@ -12,10 +12,10 @@ class CustomPostTypeController {
     }
 
     public function register() {
-        $this->registerCPT();
-        add_action('init', [$this, 'registerCustomPostTypes']);
-        add_action('add_meta_boxes', [$this, 'add_meta_boxes']);
-        add_action('save_post', [$this, 'save_meta_box']);
+//        $this->registerCPT();
+//        add_action('init', [$this, 'registerCustomPostTypes']);
+//        add_action('add_meta_boxes', [$this, 'add_meta_boxes']);
+//        add_action('save_post', [$this, 'save_meta_box']);
     }
 
     public function registerCPT() {
@@ -136,7 +136,7 @@ class CustomPostTypeController {
         ?>
         <p>
             <label class="meta-label" for="ecertificate_personal_prefix">Delete Certificates</label>
-            <a href="<?php echo esc_url(admin_url('admin-post.php')); ?>?action=delete_certificates&id=<?php echo $post->ID;?>" class="button button-primary button-large">Delete Certificates</a>
+            <a href="<?php echo esc_url(admin_url('admin-post.php')); ?>?action=delete_certificates&id=<?php echo $post->ID; ?>" class="button button-primary button-large">Delete Certificates</a>
         </p>
         <?php
     }

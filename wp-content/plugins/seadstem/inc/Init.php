@@ -20,6 +20,7 @@ class Init {
             pages\Admin::class,
             controllers\CustomPostTypeController::class,
             controllers\ShortCodeController::class,
+            controllers\TeacherRoleController::class,
         ];
     }
 

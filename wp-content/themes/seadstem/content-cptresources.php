@@ -146,9 +146,11 @@
                                     <h2><?php pll_e('Documents'); ?></h2>
 
                                     <?php foreach ($media as $url): ?>
-                                        <?php if (empty($url)) {
+                                        <?php
+                                        if (empty($url)) {
                                             continue;
-                                        } ?>
+                                        }
+                                        ?>
         <?php $medium = get_post(seadstem_get_attachment_id_by_url($url)); ?>
                                         <div class="row documents-file-container">
                                             <div class="col-sm-2">
@@ -193,7 +195,7 @@
                                             ?>
                                             <p class="mb-1">
                                                 <a class="t-gray" href="<?php echo $linkObj['link_url']; ?>" target="_blank" title="<?php echo $linkObj['link_description']; ?>">
-            <?php $linkImage = seadstem_get_links_icon($linkObj['link_image']); ?>
+                                                    <?php $linkImage = seadstem_get_links_icon($linkObj['link_image']); ?>
                                                     <span class="<?php echo $linkImage; ?>"></span>
                                             <?php echo $linkObj['link_title']; ?>
                                                 </a>
@@ -273,20 +275,20 @@
                                                 foreach ($separated_by_category[$category] as $myPost) {
                                                     ?>
 
-                                                            <?php // foreach ($myPosts as $myPost): ?>
+                                                            <?php // foreach ($myPosts as $myPost):  ?>
                                                     <div class="item">
                                                         <a href="<?php echo get_post_permalink($myPost); ?>" class="single-related-post-link t-gray">
                                                         <?php echo get_the_post_thumbnail($myPost, 'medium', ['class' => 'img-fluid rounded']); ?>
                                                         </a>
                                                         <a href="<?php echo get_post_permalink($myPost); ?>" class="single-related-post-link t-gray"><?php echo $myPost->post_title; ?></a>
-                <?php //echo $myPost->post_title;      ?>
+                                                    <?php //echo $myPost->post_title;      ?>
                                                     </div>
-                                                    <?php // endforeach; ?>
+                                                    <?php // endforeach;  ?>
 
 
-                <?php
-            }
-            ?>
+                                                    <?php
+                                                }
+                                                ?>
                                             </div>
                                         </div>
                                     </div>
